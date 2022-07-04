@@ -1,0 +1,19 @@
+{
+    "name": "IsThisUp? Extension",
+    "description": "Notifies you when resource you're interested in is back online",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Is this up?"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "uptime.png",
+        "48": "uptime.png",
+       "128": "uptime.png" 
+    },
+    "permissions": ["notifications", "storage"]
+  }
