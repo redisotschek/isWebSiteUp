@@ -2,7 +2,7 @@ let inputGroupCounter = 1;
 const container = document.getElementById('container');
 const addInputButton = document.getElementById('add-input-group');
 const intervalsArray = [];
-const INTERVAL = 1000;
+const INTERVAL = 30000;
 
 document.getElementById('add-input-group').addEventListener('click', () => {
     getInputGroup();
@@ -37,7 +37,7 @@ function getRepeatButton(id) {
 }
 
 function repeatRequest(id) {
-    console.log(id)
+    console.log(id);
 }
 
 function checkResource(url) {
